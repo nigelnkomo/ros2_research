@@ -1,0 +1,30 @@
+# Ignore build, install, and log directories
+build/
+install/
+log/
+
+# Ignore VSCode workspace and configuration files
+.vscode/
+
+# Ignore CMake files
+CMakeLists.txt.user
+CMakeLists.txt.cmake
+
+# Ignore the ROS 2 setup files (generated in install directory)
+*.setup.*
+*.local
+*.env
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Ignore IDEs' temporary files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore ROS 2 package dependency caches
+*.rosinstall
+
